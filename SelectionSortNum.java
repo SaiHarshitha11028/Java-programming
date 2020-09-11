@@ -6,12 +6,12 @@ public class SelectionSortNum
 	{
 		Scanner scan=new Scanner(System.in);
 		int n;
-		system.ot.println("enter the size of an array");
-		n=sc.nextint();
+		system.out.println("enter the size of an array");
+		n=scan.nextInt();
 		int a[]=new int[n];
 		for(int i=o;i<n;i++)
 		{
-			a[i]=sc.nextint();
+			a[i]=scan.nextInt();
 		}
 		
 		for(int i=0;i<n-1;i++)
