@@ -6,8 +6,14 @@ public class SelectionSortNum
 	{
 		Scanner scan=new Scanner(System.in);
 		int n;
-		int a[]={77,22,79,123,43,34,29,67};
-		n=a.length;
+		system.ot.println("enter the size of an array");
+		n=sc.nextint();
+		int a[]=new int[n];
+		for(int i=o;i<n;i++)
+		{
+			a[i]=sc.nextint();
+		}
+		
 		for(int i=0;i<n-1;i++)
 		{
 			int min=a[i];
