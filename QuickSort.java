@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class QuickSortADT {
+public class QuickSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
